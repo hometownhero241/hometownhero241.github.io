@@ -1,0 +1,152 @@
+﻿<html>
+<head><title>About Us</title></head>
+
+<body background="bgrd.jpg">
+    <a href="index.html">
+        <img src="111.jpg" align="left" /></a>
+     <div class="container">
+
+        <a href="mainpage.html">Home &nbsp &nbsp &nbsp  </a>
+        <div class="dropdown">
+            <button class="dropbtn" onclick="myFunction()">&nbsp Learn &nbsp coding &nbsp &nbsp </button>
+            <div class="dropdown-content" id="myDropdown">
+                <a href="#">HTML</a>
+                <a href="#">C++</a>
+                <a href="#">Python</a>
+            </div>
+            
+        </div>
+        <a href="about.html">About Us</a>
+
+        <h5 align="right">Username: &nbsp
+            <input type="string" id="e"></input>
+            Password: &nbsp
+            <input type="password" id="Number1"></input>
+            &nbsp
+            <button>Login</button></h5>
+    </div>
+<p align="right">New to our website, <a href="register.htm">Sign up</a> and get your account.</p><br>
+    <script>
+        function myFunction() {
+            document.getElementById("myDropdown").classList.toggle("show");
+        }
+
+        // Close the dropdown if the user clicks outside of it
+        window.onclick = function (e) {
+            if (!e.target.matches('.dropbtn')) {
+                var myDropdown = document.getElementById("myDropdown");
+                if (myDropdown.classList.contains('show')) {
+                    myDropdown.classList.remove('show');
+                }
+            }
+        }
+    </script>
+
+
+    <style>
+         .container {
+            overflow: hidden;
+            background-color: #333;
+            font-family: Arial;
+        }
+
+            .container a {
+                float: left;
+                font-size: 16px;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+
+        .dropdown {
+            float: left;
+            overflow: hidden;
+        }
+
+            .dropdown .dropbtn {
+                cursor: pointer;
+                font-size: 16px;
+                border: none;
+                outline: none;
+                color: white;
+                padding: 14px 16px;
+                background-color: inherit;
+            }
+
+            .container a:hover, .dropdown:hover .dropbtn {
+                background-color: red;
+            }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+            .dropdown-content a {
+                float: none;
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+                text-align: left;
+            }
+
+                .dropdown-content a:hover {
+                    background-color: #ddd;
+                }
+
+        .show {
+            display: block;
+        }
+        body {
+            color: white;
+            text-align: center;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        IMG.displayed {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        table {
+            position: absolute;
+            width: 700px;
+        }
+        a {
+            color: yellow;
+        }
+        h1 {
+            color: greenyellow;
+        }
+    </style>
+   
+    
+    
+    <table  widht="35%">
+        <tr width="35%">
+            <td>
+                <img class="displayed" src="perso.jpg" width="40%" height="30%" />
+                <h1>Stephen LEBIBI</h1>
+                <p>
+                    &nbsp &nbsp &nbsp 莱布尼茨（Gottfried Wilhelm Leibniz，公元1646年─公元1716年）是德国哲学家、逻辑学家、数学家和科学家。<br /><br />
+&nbsp &nbsp &nbsp 早年入莱比锡大学（Universit&auml;t Leipzig）修法律，当他的法律博士论文被拒绝後便永远地离开了故乡莱比锡，时年仅20岁；旋即在纽伦堡（Nürnberg）获得博士学位，并获教授职位。但他拒绝了这个职位，改而投靠交游甚广的美因茨选帝侯（Elector of Mainz）；<br />
+&nbsp &nbsp &nbsp  他与年龄相仿的所有杰出知识分子结交，并在这段时间，与牛顿（Isaac Newton）无涉而独力创立了微积分（Calculus），还改进了帕斯卡（Blaise Pascal）的计算机，奠定了动力学的基础。他服务於汉诺瓦公爵（Duke of Hanover），
+                    成为包括从学监到采矿工程师的万事通（在采矿实践的基础上他提出地球起源於熔融状态的假说），但他仍不放弃研究工作，建立了二进制（Binary System），奠定了拓扑学（Topology）的基础。<br /> &nbsp &nbsp &nbsp 他提出了关於思维的通用语言的学说，其中逻辑关系清晰可见。
+                    他的职务被扩展到布伦瑞克家族（House of Brunswick）的编史官，但他不限於编纂家谱，而把目标扩充为包括比较语言学和地质学的全面历史，而且他藉由这项工作还影响了乔治一世（George I）对英国安妮女王（Queen Anne）的继承权。 </p></td>
+        </tr>
+
+
+
+    </table>
+</body>
+</html>
