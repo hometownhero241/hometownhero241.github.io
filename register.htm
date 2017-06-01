@@ -4,6 +4,25 @@
 <body background="bgrd.jpg">
     <a href="index.html">
         <img src="111.jpg" align="left" /></a>
+     <script>
+         function myFunction() {
+             document.getElementById("myDropdown").classList.toggle("show");
+         }
+
+         // Close the dropdown if the user clicks outside of it
+         window.onclick = function (e) {
+             if (!e.target.matches('.dropbtn')) {
+                 var myDropdown = document.getElementById("myDropdown");
+                 if (myDropdown.classList.contains('show')) {
+                     myDropdown.classList.remove('show');
+                 }
+             }
+         }
+         function regisbutton()
+         {
+             alert("You are not really registered. It's just for fun haha!");
+         }
+    </script>
      <div class="container">
 
         <a href="mainpage.html">Home &nbsp &nbsp &nbsp  </a>
@@ -25,22 +44,9 @@
             &nbsp
             <button>Login</button></h5>
     </div>
-<p align="right">New to our website, <a href="register.htm">Sign up</a> and get your account.</p><br>
-    <script>
-        function myFunction() {
-            document.getElementById("myDropdown").classList.toggle("show");
-        }
-
-        // Close the dropdown if the user clicks outside of it
-        window.onclick = function (e) {
-            if (!e.target.matches('.dropbtn')) {
-                var myDropdown = document.getElementById("myDropdown");
-                if (myDropdown.classList.contains('show')) {
-                    myDropdown.classList.remove('show');
-                }
-            }
-        }
-    </script>
+<p align="right">New to our website, <a href="register.htm">Sign up</a> and get your account.</p>
+    <p align="right">&nbsp;</p><br>
+    
 
 
     <style>
@@ -128,6 +134,81 @@
         h1 {
             color: greenyellow;
         }
+        .auto-style1 {
+            width: 52%;
+            top: 279px;
+            left: 114px;
+        }
+        #Text1 {
+            margin-left: 0px;
+        }
+        .auto-style2 {
+            width: 182px;
+            text-align: left;
+        }
     </style>
+    <table class="auto-style1">
+        <tr>
+            <td class="auto-style2"><strong style="text-align: justify">Username&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <br />
+                <br />
+                Password&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <br />
+                <br />
+                Confirm password&nbsp; <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <br />
+                Who are you?&nbsp;<br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                &nbsp;&nbsp;&nbsp; <br />
+                </strong></td><td><strong>
+                <input id="Text1" type="text" /><br />
+                <br />
+                <input id="Password1" type="password" /><br />
+                <br />
+                <input id="Password2" type="password" /><br />
+                <br />
+                <select id="Select1" name="D1">
+                    <option>Beginner</option>
+                    <option>Hobbyist</option>
+                    <option>Student</option>
+                    <option>IT professional</option>
+                    <option>Other</option>
+                    
+                </select><br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+    <button onclick="regisbutton()">Register</button>
+                <br />
+                </strong></td>
+        </tr>
+    </table>
+    <p>
+        &nbsp;</p>
+    <p>
+        &nbsp;</p>
+    <p>
+        &nbsp;</p>
+    <p>
+        &nbsp;</p>
+    <p>
+        &nbsp;</p>
+    <p>
+        &nbsp;</p>
+    <p>
+        &nbsp;</p>
+    <p>
+        &nbsp;</p>
+    <p>
+        &nbsp;</p>
+    </body>
+    </html>
    
     
