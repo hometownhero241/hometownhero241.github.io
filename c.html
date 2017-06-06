@@ -1,0 +1,165 @@
+﻿<html>
+<head><title>C/C++</title></head>
+
+<body background="bgrd.jpg">
+    <a href="index.aspx">
+        <img src="111.jpg" align="left" /></a>
+     <script>
+         function myFunction() {
+             document.getElementById("myDropdown").classList.toggle("show");
+         }
+
+         // Close the dropdown if the user clicks outside of it
+         window.onclick = function (e) {
+             if (!e.target.matches('.dropbtn')) {
+                 var myDropdown = document.getElementById("myDropdown");
+                 if (myDropdown.classList.contains('show')) {
+                     myDropdown.classList.remove('show');
+                 }
+             }
+         }
+         function regisbutton() {
+             alert("You are not really registered. It's just for fun haha!");
+         }
+    </script>
+
+     <div class="container">
+
+        <a href="mainpage.html">Home &nbsp &nbsp &nbsp  </a>
+        <div class="dropdown">
+            <button class="dropbtn" onclick="myFunction()">&nbsp Learn &nbsp coding &nbsp &nbsp </button>
+            <div class="dropdown-content" id="myDropdown">
+              <a href="html.html">HTML</a>
+                <a href="c.html">C++</a>
+                <a href="python.html">Python</a>
+                <a href="java.html">Java</a>
+            </div>
+            
+        </div>
+        <a href="about.html">About Us</a>
+
+        <h5 align="right">Username: &nbsp
+            <input type="string" id="e"></input>
+            Password: &nbsp
+            <input type="password" id="Number1"></input>
+            &nbsp
+            <button>Login</button></h5>
+    </div>
+<p align="right">New to our website, <a href="register.htm">Sign up</a> and get your account.</p>
+    <p align="right">&nbsp;</p><br>
+
+
+    
+
+
+    <table class="auto-style3" border="3">
+        <tr>
+            <td><h1>C/C++</h1>
+                <p>&nbsp; &nbsp; &nbsp; C++ (pronounced cee plus plus) is a general-purpose programming language. It has imperative, object-oriented and generic programming features, while also providing facilities for low-level memory manipulation. It was designed with a bias toward system programming and embedded, resource-constrained and large systems, with performance, efficiency and flexibility of use as its design highlights.<br />
+                    &nbsp; &nbsp; &nbsp; C++ has also been found useful in many other contexts, with key strengths being software infrastructure and resource-constrained applications, including desktop applications, servers (e.g. e-commerce, web search or SQL servers), and performance-critical applications (e.g. telephone switches or space probes). C++ is a compiled language, with implementations of it available on many platforms and provided by various organizations, including the Free Software Foundation (FSF&#39;s GCC), LLVM, Microsoft, Intel and IBM.</p>
+                <p>Throughout C++&#39;s life, its development and evolution has been informally governed by a set of rules that its evolution should follow:<br /><br /> ▪It must be driven by actual problems and its features should be useful immediately in real world programs.<br /><br /> ▪Every feature should be implementable (with a reasonably obvious way to do so).<br /><br /> ▪Programmers should be free to pick their own programming style, and that style should be fully supported by C++.<br /><br /> ▪Allowing a useful feature is more important than preventing every possible misuse of C++.<br /><br /> ▪It should provide facilities for organising programs into well-defined separate parts, and provide facilities for combining separately developed parts.<br /><br />▪No implicit violations of the type system (but allow explicit violations; that is, those explicitly requested by the programmer).<br /><br /> ▪User-created types need to have the same support and performance as built-in types.<br /><br /> ▪Unused features should not negatively impact created executables (e.g. in lower performance).<br /><br /> 
+                    ▪There should be 
+                    no language beneath C++ (except assembly language).<br /><br /> ▪C++ should work alongside other existing programming languages, rather than fostering its own separate and incompatible programming environment.<br /><br /> ▪If the programmer&#39;s intent is unknown, allow the programmer to specify it by providing manual control.</p>
+            </td>
+        </tr>
+    </table>
+
+
+
+    
+
+
+    <style>
+         .container {
+            overflow: hidden;
+            background-color: #333;
+            font-family: Arial;
+        }
+
+            .container a {
+                float: left;
+                font-size: 16px;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+
+        .dropdown {
+            float: left;
+            overflow: hidden;
+        }
+
+            .dropdown .dropbtn {
+                cursor: pointer;
+                font-size: 16px;
+                border: none;
+                outline: none;
+                color: white;
+                padding: 14px 16px;
+                background-color: inherit;
+            }
+
+            .container a:hover, .dropdown:hover .dropbtn {
+                background-color: red;
+            }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+            .dropdown-content a {
+                float: none;
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+                text-align: left;
+            }
+
+                .dropdown-content a:hover {
+                    background-color: #ddd;
+                }
+
+        .show {
+            display: block;
+        }
+        body {
+            color: white;
+            text-align: center;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        IMG.displayed {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        table {
+            position: absolute;
+            width: 700px;
+        }
+        a {
+            color: yellow;
+        }
+        h1 {
+            color: greenyellow;
+        }
+        #Text1 {
+            margin-left: 0px;
+        }
+        .auto-style3 {
+            width: 36%;
+            top: 143px;
+            left: 37px;
+        }
+    </style>

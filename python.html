@@ -1,0 +1,195 @@
+<html>
+<head><title>Python</title></head>
+
+<body background="bgrd.jpg">
+    <a href="index.aspx">
+        <img src="111.jpg" align="left" /></a>
+     <script>
+         function myFunction() {
+             document.getElementById("myDropdown").classList.toggle("show");
+         }
+
+         // Close the dropdown if the user clicks outside of it
+         window.onclick = function (e) {
+             if (!e.target.matches('.dropbtn')) {
+                 var myDropdown = document.getElementById("myDropdown");
+                 if (myDropdown.classList.contains('show')) {
+                     myDropdown.classList.remove('show');
+                 }
+             }
+         }
+         function regisbutton() {
+             alert("You are not really registered. It's just for fun haha!");
+         }
+    </script>
+
+     <div class="container">
+
+        <a href="mainpage.html">Home &nbsp &nbsp &nbsp  </a>
+        <div class="dropdown">
+            <button class="dropbtn" onclick="myFunction()">&nbsp Learn &nbsp coding &nbsp &nbsp </button>
+            <div class="dropdown-content" id="myDropdown">
+               <a href="html.html">HTML</a>
+                <a href="c.html">C++</a>
+                <a href="python.html">Python</a>
+                <a href="java.html">Java</a>
+            </div>
+            
+        </div>
+        <a href="about.html">About Us</a>
+
+        <h5 align="right">Username: &nbsp
+            <input type="string" id="e"></input>
+            Password: &nbsp
+            <input type="password" id="Number1"></input>
+            &nbsp
+            <button>Login</button></h5>
+    </div>
+<p align="right">New to our website, <a href="register.htm">Sign up</a> and get your account.</p>
+    <p align="right">&nbsp;</p>
+    
+
+
+    <table class="auto-style3" border="3">
+        <tr>
+            <td class="auto-style4"><h1>Python</h1>
+                <p>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Python is a widely used high-level programming language for general-purpose programming, created by Guido van Rossum and first released in 1991.<br />
+                    An interpreted language, Python has a design philosophy which emphasizes code readability (notably using whitespace indentation to delimit code blocks rather than curly braces or keywords), and a syntax which allows programmers to express concepts in fewer lines of code than possible in languages such as C++ or Java.</p>
+                <p>
+                    &nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The language provides constructs intended to enable writing clear programs on both a small and large scale. Python features a dynamic type system and automatic memory management and supports multiple programming paradigms, including object-oriented, imperative, functional programming, and procedural styles. It has a large and comprehensive standard library.</p>
+                <p>
+                    &nbsp; Python interpreters are available for many operating systems, allowing Python code to run on a wide variety of systems. CPython, the reference implementation of Python, is open source software and has a community-based development model, as do nearly all of its variant implementations. CPython is managed by the non-profit Python Software Foundation.<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                <p>
+&nbsp;&nbsp; Python can be easy to pick up whether you're a first time programmer or you're experienced with other languages. The following pages are a useful first step to get on your way writing programs with Python!
+                </p>
+                <p>
+                    Python is a <a class="mw-redirect" href="https://en.wikipedia.org/wiki/Multi-paradigm_programming_language" title="Multi-paradigm programming language">multi-paradigm programming language</a>: <a href="https://en.wikipedia.org/wiki/Object-oriented_programming" title="Object-oriented programming">object-oriented programming</a> and structured programming are fully supported, and many language features support functional programming and aspect-oriented programming (including by metaprogramming and metaobjects (magic methods)). Many 
+                    other paradigms are supported via extensions, including design by contract and logic programming.</p>
+                <p>
+                    Python usesdynamic typing and a mix of reference counting and a cycle-detecting garbage collector for memory management. An important feature of Python is dynamic name resolution (late binding), which binds method and variable names during program execution.</p>
+                <p>
+                    The design of Python offers some support for functional programming in the Lisp tradition. The language has map(), reduce() and filter() functions; list comprehensions,dictionaries, and sets; and generator expressions. The standard library has two modules (itertools and functools) that implement functional tools borrowed from Haskell and
+                    Standard ML.</p>
+                <p>
+                    The core philosophy of the language is summarized by the document <i>The <a href="https://en.wikipedia.org/wiki/Zen_of_Python" title="Zen of Python">Zen of Python</a></i> (<i>PEP 20</i>),</p>
+                </td>
+        </tr>
+    </table>
+
+    
+
+
+    <br>
+    
+
+
+    
+
+    
+
+
+    <style>
+         .container {
+            overflow: hidden;
+            background-color: #333;
+            font-family: Arial;
+        }
+
+            .container a {
+                float: left;
+                font-size: 16px;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+
+        .dropdown {
+            float: left;
+            overflow: hidden;
+        }
+
+            .dropdown .dropbtn {
+                cursor: pointer;
+                font-size: 16px;
+                border: none;
+                outline: none;
+                color: white;
+                padding: 14px 16px;
+                background-color: inherit;
+            }
+
+            .container a:hover, .dropdown:hover .dropbtn {
+                background-color: red;
+            }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+            .dropdown-content a {
+                float: none;
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+                text-align: left;
+            }
+
+                .dropdown-content a:hover {
+                    background-color: #ddd;
+                }
+
+        .show {
+            display: block;
+        }
+        body {
+            color: white;
+            text-align: center;
+            height: 123px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        IMG.displayed {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        table {
+            
+            width: 122px;
+            
+            left: 9px;
+            right: 990px;
+            height: 2px;
+        }
+        a {
+            color: yellow;
+        }
+        h1 {
+            color: greenyellow;
+        }
+        #Text1 {
+            margin-left: 0px;
+        }
+        .auto-style3 {
+            width: 35%;
+        }
+        .auto-style4 {
+            height: 703px;
+        }
+    </style>
+
+    
