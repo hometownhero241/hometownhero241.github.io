@@ -1,0 +1,171 @@
+<html>
+<head><title>HTML</title></head>
+
+<body background="bgrd.jpg">
+    <table class="auto-style3" border="3">
+        <tr>
+            <td class="auto-style4" ><h1>HTML</h1>
+                <p>&nbsp;&nbsp;&nbsp; HyperText Markup Language (HTML) is the standard markup language for creating web pages and web applications. With Cascading Style Sheets (CSS), and JavaScript, it forms a triad of cornerstone technologies for the World Wide Web. </p>
+                <p>&nbsp;&nbsp;&nbsp; Web browsers receive HTML documents from a webserver or from local storage and render them into multimedia web pages. HTML describes the structure of a web page semantically and originally included cues for the appearance of the document.<br />
+                    HTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects, 
+such as interactive forms, may be embedded into the rendered page. It provides a means to create structured
+ documents by denoting structural semantics for text such as headings, paragraphs, lists, links, quotes and 
+other items.</p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp; HTML elements are delineated by tags, written using angle brackets. Tags such as<span class="auto-style5"> <code class="nowrap" style>&lt;img /&gt</code></span>  and
+  <span class="auto-style5">
+  <code class="nowrap" style="">&lt;input /&gt;</code></span> introduce content into the page directly. Others such as<span class="auto-style5"><code class="nowrap" style=""> &lt;p /&gt;&lt;...p/&gt;</code></span>  surround and provide 
+information about document text and may include other tags as sub-elements. Browsers do not display 
+the HTML tags, but use them to interpret the content of the page.
+                    <br />&nbsp&nbsp&nbsp</p>
+                <p>&nbsp;&nbsp;&nbsp; HTML can embed programs written in a scripting language such as JavaScript which affect the behavior and content of web pages. Inclusion of CSS defines the look and layout of content. The World Wide Web Consortium (W3C), maintainer of both the HTML and the CSS standards, has encouraged the use of CSS over explicit presentational HTML since 1997</p>
+            </td>
+        </tr>
+    </table>
+    <a href="index.aspx">
+        <img src="111.jpg" align="left" /></a>
+     <script>
+         function myFunction() {
+             document.getElementById("myDropdown").classList.toggle("show");
+         }
+
+         // Close the dropdown if the user clicks outside of it
+         window.onclick = function (e) {
+             if (!e.target.matches('.dropbtn')) {
+                 var myDropdown = document.getElementById("myDropdown");
+                 if (myDropdown.classList.contains('show')) {
+                     myDropdown.classList.remove('show');
+                 }
+             }
+         }
+         function regisbutton() {
+             alert("You are not really registered. It's just for fun haha!");
+         }
+    </script>
+
+     <div class="container">
+
+        <a href="mainpage.html">Home &nbsp &nbsp &nbsp  </a>
+        <div class="dropdown">
+            <button class="dropbtn" onclick="myFunction()">&nbsp Learn &nbsp coding &nbsp &nbsp </button>
+            <div class="dropdown-content" id="myDropdown">
+              <a href="html.html">HTML</a>
+                <a href="c.html">C++</a>
+                <a href="python.html">Python</a>
+                <a href="java.html">Java</a>
+            </div>
+            
+        </div>
+        <a href="about.html">About Us</a>
+
+        <h5 align="right">Username: &nbsp
+            <input type="string" id="e"></input>
+            Password: &nbsp
+            <input type="password" id="Number1"></input>
+            &nbsp
+            <button>Login</button></h5>
+    </div>
+<p align="right">New to our website, <a href="register.htm">Sign up</a> and get your account.</p>
+    <p align="right">&nbsp;</p><br>
+    
+
+
+    <style>
+         .container {
+            overflow: hidden;
+            background-color: #333;
+            font-family: Arial;
+        }
+
+            .container a {
+                float: left;
+                font-size: 16px;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+
+        .dropdown {
+            float: left;
+            overflow: hidden;
+        }
+
+            .dropdown .dropbtn {
+                cursor: pointer;
+                font-size: 16px;
+                border: none;
+                outline: none;
+                color: white;
+                padding: 14px 16px;
+                background-color: inherit;
+            }
+
+            .container a:hover, .dropdown:hover .dropbtn {
+                background-color: red;
+            }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+            .dropdown-content a {
+                float: none;
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+                text-align: left;
+            }
+
+                .dropdown-content a:hover {
+                    background-color: #ddd;
+                }
+
+        .show {
+            display: block;
+        }
+        body {
+            color: white;
+            text-align: center;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        IMG.displayed {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        table {
+            position: absolute;
+            width: 700px;
+        }
+        a {
+            color: yellow;
+        }
+        h1 {
+            color: greenyellow;
+        }
+        #Text1 {
+            margin-left: 0px;
+        }
+        .auto-style3 {
+            width: 26%;
+            top: 140px;
+            left: 41px;
+        }
+        .auto-style4 {
+            width: 1020px;
+        }
+        .auto-style5 {
+            color: #FFFF00;
+        }
+    </style>
